@@ -1,0 +1,24 @@
+header {
+    background-image: linear-gradient(to top, rgba(62, 205, 83, 0.8), rgba(0,0,0,0.2)), url(main.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+body,h1,h2,h3,h4{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+/*SNS 영역*/
+#sns-links {
+    background-image: linear-gradient(rgba(43, 230, 155, 0.8),rgba(52, 124, 100, 0.208)), url(farm.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*네비게이션 영역*/
+.nav-link:hover,
+.nav-link.active {
+    color:darkseagreen !important;
+}
